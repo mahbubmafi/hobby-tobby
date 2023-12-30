@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import logo from '../../../assets/hobby-tobby-logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faUser, faEnvelope, faHeart, faBagShopping, faMagnifyingGlass} from '@fortawesome/free-solid-svg-icons';
+import {faUser, faEnvelope, faHeart, faBagShopping, faMagnifyingGlass, faRightToBracket} from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
     return (
@@ -21,6 +21,7 @@ const Header = () => {
                         <Link to='/inbox' className='p-4 text-white'><FontAwesomeIcon icon={faEnvelope} /></Link>
                         <Link to='wishlist' className='p-4 text-white'><FontAwesomeIcon icon={faHeart} /></Link>
                         <Link to='/cart' className='p-4 text-white'><FontAwesomeIcon icon={faBagShopping} /></Link>
+                        <Link to='/login' className='p-4 text-white'><FontAwesomeIcon icon={faRightToBracket} /></Link>
                     </div>
                 </div>
 

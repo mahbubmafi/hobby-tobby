@@ -10,6 +10,8 @@ import Community from "../pages/Community/Community";
 import Exchange from "../pages/Exchange/Exchange";
 import AboutUs from "../pages/AboutUs/AboutUs";
 import LookingFor from "../pages/LookingFor/LookingFor";
+import Login from "../pages/Login/Login";
+import Register from "../pages/Register/Register";
 
 const router = createBrowserRouter([
     {
@@ -55,6 +57,14 @@ const router = createBrowserRouter([
         {
             path:'/lookingFor',
             element: <LookingFor></LookingFor>
+        },
+        {
+            path: '/login',
+            element: <Login></Login>
+        },
+        {
+            path:'/register',
+            element:<Register></Register>
         }
       ]
     },

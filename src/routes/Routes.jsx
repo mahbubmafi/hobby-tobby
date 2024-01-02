@@ -9,9 +9,9 @@ import Mall from "../pages/Mall/Mall";
 import Community from "../pages/Community/Community";
 import Exchange from "../pages/Exchange/Exchange";
 import AboutUs from "../pages/AboutUs/AboutUs";
-import LookingFor from "../pages/LookingFor/LookingFor";
 import Login from "../pages/Login/Login";
 import Register from "../pages/Register/Register";
+import Events from "../pages/LookingFor/Events";
 
 const router = createBrowserRouter([
     {
@@ -55,8 +55,8 @@ const router = createBrowserRouter([
             element: <AboutUs></AboutUs>
         },
         {
-            path:'/lookingFor',
-            element: <LookingFor></LookingFor>
+            path:'/events',
+            element: <Events></Events>
         },
         {
             path: '/login',

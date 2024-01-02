@@ -29,7 +29,7 @@ const Header = () => {
                     <Link to='/community' className='p-2 text-white'>Community</Link>
                     <Link to='/mall' className='p-2 text-white'>Mall</Link>
                     <Link to='/exchange' className='p-2 text-white'>Exchange</Link>
-                    <Link to='/lookingFor' className='p-2 text-white'>Looking for</Link>
+                    <Link to='/events' className='p-2 text-white'>Events</Link>
                 </div>
             </div>
 
